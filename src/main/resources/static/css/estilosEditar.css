@@ -1,0 +1,99 @@
+/* ===== Body ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ===== Link volver arriba centrado ===== */
+.volver-link {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    color: #34495e;
+    text-decoration: none;
+}
+
+.volver-link:hover {
+    text-decoration: underline;
+}
+
+/* ===== Título ===== */
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+/* ===== Formulario ===== */
+form {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* ===== Labels ===== */
+label {
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-bottom: 1px;
+    color: #34495e;
+}
+
+/* ===== Inputs ===== */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    padding: 4px;
+    font-size: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+/* ===== Botones ===== */
+button[type="submit"] {
+    padding: 4px;
+    font-size: 0.75rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+/* ===== Link cancelar ===== */
+a {
+    font-size: 0.75rem;
+    color: #e74c3c;
+    text-decoration: none;
+    margin-top: 2px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Reducir espacios entre campos ===== */
+form label + input {
+    margin-bottom: 3px;
+}
